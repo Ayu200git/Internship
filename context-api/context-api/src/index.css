@@ -1,0 +1,20 @@
+@import "tailwindcss"; /* this imports everything (base, components, utilities) */
+
+/* optional: smooth theme transition */
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light / Dark mode */
+html.light {
+  background-color: white;
+  color: #1f2937; /* gray-900 */
+}
+
+html.dark {
+  background-color: #1f2937; /* gray-900 */
+  color: #f9fafb; /* gray-100 */
+}
+
+
+
