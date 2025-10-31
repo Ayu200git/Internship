@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #2264ff;
+  position: relative;
+}
+
+ 
+.board {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50vw 50vw 0 0;
+  background-color: bisque;
+  width: 30vw;
+}
+
+ 
+.new-star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 50vw 0;
+  height: 10vh;
+  width: 5vw;
+  text-align: center;
+  font-size: larger;
+  background-color: #23256b;
+  color: white;
+  cursor: pointer;
+}
+
+ 
+.Star {
+  position: absolute;
+  background-color: #ffee00;
+  color: rgb(187, 56, 0);
+  text-align: center;
+  font-weight: bolder;
+  padding: 25px;
+  cursor: move;
+  user-select: none;
+  border-radius: 50%;
+}
+ 
+.model-loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #232723;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
